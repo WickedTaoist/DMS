@@ -3,14 +3,11 @@ from typing import Dict, List, Tuple
 
 from src.aggregators.event_aggregator import aggregate_events
 from src.aggregators.temporal_smoother import smooth_labels
-from src.detectors.base_detector import FrameContext
-from src.io.frame_sampler import should_keep_frame
-from src.io.video_reader import iter_video_frames
+from src.io.frame_sampler import iter_sampled_frame_contexts
 from src.pipelines.frame_pipeline import FramePipeline
 from src.schemas.clip_summary import ClipSummary
 from src.schemas.event_result import EventResult
 from src.schemas.frame_result import FrameResult
-from src.utils.time_utils import frame_to_timestamp_ms
 
 
 class ClipPipeline:
@@ -22,21 +19,14 @@ class ClipPipeline:
 
     def run(self, video_path: str) -> Tuple[List[FrameResult], List[EventResult], ClipSummary]:
         video_id = Path(video_path).name
-        target_fps = float(self.config["runtime"].get("sample_fps", 10))
+        target_fps = float(self.config.get("pipeline", {}).get("sampling_fps", 10))
         frame_results: List[FrameResult] = []
-        src_fps = 30.0
 
-        for frame_index, frame_bgr, src_fps in iter_video_frames(video_path):
-            if not should_keep_frame(frame_index, src_fps, target_fps):
-                continue
-            frame_ctx = FrameContext(
-                video_id=video_id,
-                frame_index=frame_index,
-                timestamp_ms=frame_to_timestamp_ms(frame_index, src_fps),
-                frame_bgr=frame_bgr,
-            )
+        # Decode + sample frames before entering model pipeline.
+        for frame_ctx in iter_sampled_frame_contexts(video_path, video_id, target_fps):
             frame_results.append(self.frame_pipeline.process(frame_ctx))
 
+        # Temporal smoothing reduces one-frame jitter before event aggregation.
         labels = [fr.decision.get("frame_label", "normal") for fr in frame_results]
         smoothed = smooth_labels(labels, int(self.config["decision"].get("max_gap_frames", 3)))
         for fr, label in zip(frame_results, smoothed):
@@ -67,7 +57,7 @@ class ClipPipeline:
             total_frames_processed=total_frames,
             fps_processed=fps_processed,
             total_duration_ms=total_duration_ms,
-            event_count_phone_usage=event_count,
+            event_count_suspected_phone_use=event_count,
             event_total_duration_ms=event_duration_ms,
             event_duration_ratio=ratio,
             max_event_duration_ms=max_event_duration,

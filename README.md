@@ -1,51 +1,40 @@
-# Driver Phone Usage Detection (Research Prototype)
+# Driver Phone Usage Detection / 驾驶员玩手机检测（科研原型）
 
-This project is a research-oriented computer vision prototype for detecting driver phone usage behavior in offline videos.
+## 1. Project Overview / 项目概述
 
-The core idea is not a single end-to-end classifier. Instead, it combines multiple visual evidence signals:
+**EN**: This repository is a research prototype for offline driver phone-use analysis. It combines multiple visual signals instead of relying on one end-to-end classifier.  
+**ZH**：本仓库是一个离线视频科研原型，用于检测驾驶员玩手机行为。系统通过多证据联合判断，而非单一端到端分类器。
 
-- head pose (downward tendency)
-- gaze direction (downward or off-road)
-- phone object detection
-- hand-off-wheel detection
+Main evidence signals / 主要证据信号：
+- Head pose (downward trend) / 头部下倾
+- Gaze direction (downward or off-road) / 视线下移或偏离前方
+- Phone detection / 手机目标检测
+- Hand-off-wheel signal / 手离方向盘信号
 
-The system is designed for fast paper iteration: clear architecture, configurable experiments, and easy module extension.
+---
 
-## 1. Goals
+## 2. Architecture / 系统架构
 
-- Support single-video and directory batch processing
-- Produce results at three granularities:
-  - frame-level
-  - event-level
-  - clip-level
-- Export to JSON and CSV
-- Keep architecture simple but extensible for:
-  - fusion upgrades
-  - VLM integration
-  - new behavior categories
+Pipeline / 流程：
+1. Video input / 视频输入
+2. Decode + frame sampling / 解码与抽帧
+3. Multi-detector inference / 多检测器推理
+4. Evidence fusion / 证据融合
+5. Frame-level decision / 帧级判定
+6. Event aggregation / 事件聚合
+7. Clip summary / 片段级汇总
+8. JSON/CSV export / 结构化导出
 
-## 2. Architecture
+Layer roles / 分层职责：
+- `detectors`: raw signal extraction / 原始信号提取
+- `fusion`: risk score calculation / 风险分数融合
+- `decision`: frame label generation / 帧级标签生成
+- `aggregators`: temporal event construction / 时序事件构建
+- `runners`: single and batch orchestration / 单视频与批量调度
 
-Pipeline flow:
+---
 
-1. Video input
-2. Decode and sample frames
-3. Run multiple detectors per frame
-4. Fuse evidence into risk score
-5. Decide frame-level behavior label
-6. Aggregate temporal events
-7. Summarize clip-level statistics
-8. Export JSON/CSV
-
-Layer responsibilities:
-
-- `detectors`: "what is observed"
-- `fusion`: "how signals are combined"
-- `decision`: "how behavior labels are determined"
-- `aggregators`: "how frame labels become events"
-- `runners`: "how experiments are executed"
-
-## 3. Directory and File Guide
+## 3. Directory Guide / 目录说明
 
 ```text
 driver_phone_usage/
@@ -56,154 +45,118 @@ driver_phone_usage/
 │  ├─ base.yaml
 │  └─ experiments/
 │     └─ exp_baseline.yaml
+├─ data/
+│  └─ video/                      # batch input directory
 ├─ src/
 │  ├─ main.py
 │  ├─ schemas/
-│  │  ├─ common.py
-│  │  ├─ frame_result.py
-│  │  ├─ event_result.py
-│  │  └─ clip_summary.py
 │  ├─ detectors/
-│  │  ├─ base_detector.py
-│  │  ├─ registry.py
-│  │  ├─ head_pose_detector.py
-│  │  ├─ gaze_detector.py
-│  │  ├─ phone_detector.py
-│  │  ├─ hand_off_wheel_detector.py
-│  │  └─ vlm_detector.py
 │  ├─ fusion/
-│  │  ├─ base_fuser.py
-│  │  └─ rule_fuser.py
-│  ├─ aggregators/
-│  │  ├─ temporal_smoother.py
-│  │  └─ event_aggregator.py
 │  ├─ decision/
-│  │  ├─ base_decider.py
-│  │  ├─ threshold_policy.py
-│  │  └─ rule_based_decider.py
+│  ├─ aggregators/
 │  ├─ pipelines/
-│  │  ├─ frame_pipeline.py
-│  │  └─ clip_pipeline.py
 │  ├─ io/
-│  │  ├─ video_reader.py
-│  │  ├─ frame_sampler.py
-│  │  └─ output_writer.py
 │  ├─ runners/
-│  │  ├─ run_single.py
-│  │  ├─ run_batch.py
-│  │  └─ experiment_runner.py
 │  └─ utils/
-│     ├─ config_loader.py
-│     ├─ logger.py
-│     ├─ time_utils.py
-│     └─ id_utils.py
 └─ outputs/
    ├─ json/
    ├─ csv/
    └─ logs/
 ```
 
-### Root files
+Key files / 核心文件：
+- `src/main.py`: CLI entry / 命令行入口
+- `src/runners/run_batch.py`: batch runner + batch summary / 批量运行与汇总
+- `src/pipelines/clip_pipeline.py`: end-to-end clip pipeline / 视频端到端流程
+- `src/io/output_writer.py`: JSON/CSV writer / 结果导出
+- `src/utils/video_name_parser.py`: filename metadata parsing / 文件名标签解析
 
-- `README.md`: project intro, architecture, usage, reproducibility
-- `requirements.txt`: Python dependencies
-- `pyproject.toml`: formatter/linter/project metadata
+---
 
-### Config files
+## 4. Configuration / 配置说明
 
-- `configs/base.yaml`: default global config
-- `configs/experiments/exp_baseline.yaml`: baseline experiment override
+`configs/base.yaml` (important keys / 关键字段):
 
-### Core source files
+- `data.video_dir`: default batch video directory (default `data/video`)
+- `data.video_glob`: video match pattern (default `*.mp4`)
+- `output.root_dir`: output root directory (default `outputs`)
+- `pipeline.sampling_fps`: target sampling fps
+- `detectors.enabled`: enabled detector plugins
+- `logging.level`: logging level
 
-- `src/main.py`: command entrypoint
-- `src/schemas/*`: structured data definitions for frame/event/clip
-- `src/detectors/base_detector.py`: unified detector interface
-- `src/detectors/registry.py`: detector plugin registry and builder
-- `src/fusion/base_fuser.py`: fuser interface
-- `src/fusion/rule_fuser.py`: simple explainable fusion
-- `src/decision/base_decider.py`: decision interface
-- `src/decision/rule_based_decider.py`: frame label decision by thresholds
-- `src/aggregators/event_aggregator.py`: frame labels to continuous events
-- `src/pipelines/frame_pipeline.py`: per-frame orchestration
-- `src/pipelines/clip_pipeline.py`: full video orchestration
-- `src/io/output_writer.py`: JSON/CSV export utilities
-- `src/runners/*`: single, batch, experiment runs
+Path rule / 路径规则：
+- Relative paths are resolved against project root.
+- 相对路径统一相对于项目根目录解析。
 
-## 4. Quick Start
+---
 
-### 4.1 Install
+## 5. Quick Start / 快速开始
+
+### 5.1 Install / 安装依赖
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # Windows PowerShell: .venv\Scripts\Activate.ps1
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
-### 4.2 Run single video
+### 5.2 Run single video / 单视频运行
 
 ```bash
 python -m src.main single --input path/to/video.mp4 --config configs/base.yaml
 ```
 
-### 4.3 Run batch directory
+### 5.3 Run batch (default from `data/video`) / 批量运行（默认读取 `data/video`）
 
 ```bash
-python -m src.main batch --input_dir path/to/videos --config configs/base.yaml
+python -m src.main batch --config configs/base.yaml
 ```
 
-### 4.4 Run baseline experiment
+Optional override / 可选覆盖目录：
 
 ```bash
-python -m src.main experiment --config configs/experiments/exp_baseline.yaml
+python -m src.main batch --input_dir path/to/other_videos --config configs/base.yaml
 ```
 
-## 5. Input/Output Schema
+---
 
-### Frame-level output
+## 6. Output Structure / 输出结构
 
-- frame metadata (`video_id`, `frame_index`, `timestamp_ms`)
-- detector raw outputs
-- fused evidence scores
-- frame-level decision label
+Per-video output / 每视频输出：
+- `outputs/json/<video_stem>/clip_summary.json`
+- `outputs/json/<video_stem>/events.json`
+- `outputs/json/<video_stem>/frame_results.json`
+- `outputs/csv/<video_stem>/frame_results.csv`
+- `outputs/csv/<video_stem>/events.csv`
+- `outputs/csv/<video_stem>/clip_summary.csv`
 
-### Event-level output
+Batch-level output / 批量汇总输出：
+- `outputs/csv/batch_summary.csv`
+- `outputs/logs/run_batch.log`
 
-- event id and type
-- start/end frame and timestamp
-- duration and evidence statistics
+`batch_summary.csv` fields / 字段（用于论文统计）：
+- `video_id`, `file_name`, `file_path`, `parsed_label`
+- `total_frames`, `processed_frames`, `duration_sec`
+- `num_events`, `total_event_duration_sec`
+- `max_risk_score`, `clip_label`
+- `output_json_path`, `output_csv_path`
 
-### Clip-level output
+---
 
-- total processed frames and duration
-- event counts and duration ratio
-- final clip risk score and clip label
+## 7. Add New Detector / 新增检测器
 
-## 6. How to Add a New Detector
+1. Create a class in `src/detectors/` / 在 `src/detectors/` 新建类  
+2. Inherit `BaseDetector` / 继承 `BaseDetector`  
+3. Implement `setup()`, `infer()`, `teardown()` / 实现三个标准方法  
+4. Register in `src/detectors/registry.py` / 注册到 registry  
+5. Add config entries in `configs/base.yaml` / 补充配置项  
 
-1. Create detector class under `src/detectors/`
-2. Inherit `BaseDetector`
-3. Implement `setup()`, `infer()`, `teardown()`
-4. Register it in `registry.py`
-5. Add detector config in `configs/`
+---
 
-## 7. Experiment Reproducibility Notes
+## 8. Reproducibility Notes / 复现实验建议
 
-- Store model version in outputs
-- Keep experiment config files immutable per run
-- Save logs under `outputs/logs/`
-- Use fixed frame sampling settings for fair comparisons
-
-## 8. Current Scope and Future Work
-
-Current scope:
-
-- architecture skeleton
-- rule-based fusion and decision baseline
-- JSON/CSV export and batch experiment runner
-
-Future work:
-
-- learned fusion module
-- VLM-assisted semantic reasoning
-- additional risky behavior categories
+- Keep config snapshots for each run / 每次实验保留配置快照
+- Record model versions in outputs / 在输出中记录模型版本
+- Keep deterministic sampling settings / 固定抽帧参数保证可比性
+- Use `batch_summary.csv` as primary analysis table / 以 `batch_summary.csv` 作为论文统计主表

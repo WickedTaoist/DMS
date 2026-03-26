@@ -6,7 +6,7 @@ from src.utils.id_utils import make_event_id
 
 
 def aggregate_events(
-    frame_results: List[FrameResult], min_event_frames: int, target_label: str = "phone_usage_suspected"
+    frame_results: List[FrameResult], min_event_frames: int, target_label: str = "suspected_phone_use"
 ) -> List[EventResult]:
     """Convert frame-level labels into continuous event segments."""
     events: List[EventResult] = []
@@ -45,13 +45,14 @@ def _flush_event(
         EventResult(
             event_id=make_event_id(video_id, start_idx, end_idx),
             video_id=video_id,
-            event_type="phone_usage",
+            event_type="suspected_phone_use",
             start_frame=chunk[0].meta.frame_index,
             end_frame=chunk[-1].meta.frame_index,
+            duration_frames=length,
             start_ms=start_ms,
             end_ms=end_ms,
             duration_ms=max(0, end_ms - start_ms),
-            peak_risk_score=max(scores) if scores else 0.0,
+            max_risk_score=max(scores) if scores else 0.0,
             mean_risk_score=(sum(scores) / len(scores)) if scores else 0.0,
             evidence_stats={},
             decision_reason="rule_based_temporal_aggregation",

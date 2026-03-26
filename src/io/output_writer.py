@@ -15,15 +15,20 @@ def write_json_outputs(
     frame_results: List[FrameResult],
     event_results: List[EventResult],
     clip_summary: ClipSummary,
-) -> None:
-    json_dir = Path(output_dir) / "json"
+) -> dict[str, str]:
+    json_dir = Path(output_dir) / "json" / stem
     json_dir.mkdir(parents=True, exist_ok=True)
-    with (json_dir / f"{stem}.frame.json").open("w", encoding="utf-8") as f:
+    with (json_dir / "frame_results.json").open("w", encoding="utf-8") as f:
         json.dump([asdict(x) for x in frame_results], f, ensure_ascii=False, indent=2)
-    with (json_dir / f"{stem}.event.json").open("w", encoding="utf-8") as f:
+    with (json_dir / "events.json").open("w", encoding="utf-8") as f:
         json.dump([asdict(x) for x in event_results], f, ensure_ascii=False, indent=2)
-    with (json_dir / f"{stem}.clip.json").open("w", encoding="utf-8") as f:
+    with (json_dir / "clip_summary.json").open("w", encoding="utf-8") as f:
         json.dump(asdict(clip_summary), f, ensure_ascii=False, indent=2)
+    return {
+        "frame_json_path": str((json_dir / "frame_results.json").resolve()),
+        "events_json_path": str((json_dir / "events.json").resolve()),
+        "clip_json_path": str((json_dir / "clip_summary.json").resolve()),
+    }
 
 
 def write_csv_outputs(
@@ -32,11 +37,11 @@ def write_csv_outputs(
     frame_results: List[FrameResult],
     event_results: List[EventResult],
     clip_summary: ClipSummary,
-) -> None:
-    csv_dir = Path(output_dir) / "csv"
+) -> dict[str, str]:
+    csv_dir = Path(output_dir) / "csv" / stem
     csv_dir.mkdir(parents=True, exist_ok=True)
 
-    with (csv_dir / f"{stem}.frame.csv").open("w", newline="", encoding="utf-8") as f:
+    with (csv_dir / "frame_results.csv").open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
             fieldnames=["video_id", "frame_index", "timestamp_ms", "frame_label", "risk_score"],
@@ -53,7 +58,7 @@ def write_csv_outputs(
                 }
             )
 
-    with (csv_dir / f"{stem}.event.csv").open("w", newline="", encoding="utf-8") as f:
+    with (csv_dir / "events.csv").open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
             fieldnames=[
@@ -62,8 +67,9 @@ def write_csv_outputs(
                 "event_type",
                 "start_frame",
                 "end_frame",
+                "duration_frames",
                 "duration_ms",
-                "peak_risk_score",
+                "max_risk_score",
                 "mean_risk_score",
             ],
         )
@@ -76,14 +82,20 @@ def write_csv_outputs(
                     "event_type": ev.event_type,
                     "start_frame": ev.start_frame,
                     "end_frame": ev.end_frame,
+                    "duration_frames": ev.duration_frames,
                     "duration_ms": ev.duration_ms,
-                    "peak_risk_score": ev.peak_risk_score,
+                    "max_risk_score": ev.max_risk_score,
                     "mean_risk_score": ev.mean_risk_score,
                 }
             )
 
-    with (csv_dir / f"{stem}.clip.csv").open("w", newline="", encoding="utf-8") as f:
+    with (csv_dir / "clip_summary.csv").open("w", newline="", encoding="utf-8") as f:
         clip = asdict(clip_summary)
         writer = csv.DictWriter(f, fieldnames=list(clip.keys()))
         writer.writeheader()
         writer.writerow(clip)
+    return {
+        "frame_csv_path": str((csv_dir / "frame_results.csv").resolve()),
+        "events_csv_path": str((csv_dir / "events.csv").resolve()),
+        "clip_csv_path": str((csv_dir / "clip_summary.csv").resolve()),
+    }

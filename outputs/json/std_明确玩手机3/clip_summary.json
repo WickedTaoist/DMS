@@ -1,0 +1,14 @@
+{
+  "video_id": "std_明确玩手机3.mp4",
+  "total_frames_processed": 125,
+  "fps_processed": 10.0,
+  "total_duration_ms": 9920,
+  "event_count_suspected_phone_use": 0,
+  "event_total_duration_ms": 0,
+  "event_duration_ratio": 0.0,
+  "max_event_duration_ms": 0,
+  "avg_event_duration_ms": 0.0,
+  "clip_label": "normal",
+  "clip_risk_score": 0.0,
+  "model_versions": {}
+}

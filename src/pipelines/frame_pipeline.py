@@ -14,12 +14,21 @@ class FramePipeline:
         self.decider = decider
 
     def process(self, frame_ctx: FrameContext) -> FrameResult:
-        detector_outputs = {}
+        # Raw detector results are preserved for later ablation and error analysis.
+        detector_outputs: dict[str, dict] = {}
         for detector in self.detectors:
             out = detector.infer(frame_ctx)
-            detector_outputs[detector.name] = out.payload
+            detector_outputs[detector.name] = {
+                "success": out.success,
+                "latency_ms": out.latency_ms,
+                "confidence": out.confidence,
+                "payload": out.payload,
+                "error": out.error,
+            }
 
+        # Fuser consumes normalized detector outputs and produces evidence + risk.
         fusion_output = self.fuser.fuse(detector_outputs)
+        # Decider converts risk score into task-specific frame label.
         decision_output = self.decider.decide(fusion_output)
         meta = FrameMeta(
             video_id=frame_ctx.video_id,

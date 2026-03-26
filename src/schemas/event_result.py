@@ -11,10 +11,11 @@ class EventResult:
     event_type: str
     start_frame: int
     end_frame: int
+    duration_frames: int
     start_ms: int
     end_ms: int
     duration_ms: int
-    peak_risk_score: float
+    max_risk_score: float
     mean_risk_score: float
     evidence_stats: Dict[str, float] = field(default_factory=dict)
     decision_reason: str = ""

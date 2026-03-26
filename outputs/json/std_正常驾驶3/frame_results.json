@@ -1,0 +1,7627 @@
+[
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 0,
+      "timestamp_ms": 0
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0030000010156072676,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0005999972927384079,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 2,
+      "timestamp_ms": 80
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 4,
+      "timestamp_ms": 160
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0027000023692380637,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000400003045797348,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 6,
+      "timestamp_ms": 240
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000800002453615889,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0012000018614344299,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0011999982234556228,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 8,
+      "timestamp_ms": 320
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006999980541877449,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0011999982234556228,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 10,
+      "timestamp_ms": 400
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0015000005078036338,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 12,
+      "timestamp_ms": 480
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006999980541877449,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 14,
+      "timestamp_ms": 560
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0013999997463542968,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0011000010999850929,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 16,
+      "timestamp_ms": 640
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0011000010999850929,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0011000010999850929,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 18,
+      "timestamp_ms": 720
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0012000018614344299,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 20,
+      "timestamp_ms": 800
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0012999989849049598,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 22,
+      "timestamp_ms": 880
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0032999996619764715,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 24,
+      "timestamp_ms": 960
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005999972927384079,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 26,
+      "timestamp_ms": 1040
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000400003045797348,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0011000010999850929,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0006999980541877449,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 28,
+      "timestamp_ms": 1120
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 30,
+      "timestamp_ms": 1200
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0032999996619764715,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0010999974620062858,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0010999974620062858,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 32,
+      "timestamp_ms": 1280
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0024000000848900527,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 34,
+      "timestamp_ms": 1360
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0012999989849049598,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 36,
+      "timestamp_ms": 1440
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000400003045797348,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 38,
+      "timestamp_ms": 1520
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000800002453615889,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 40,
+      "timestamp_ms": 1600
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 42,
+      "timestamp_ms": 1680
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 44,
+      "timestamp_ms": 1760
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0022000021999701858,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0012999989849049598,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 46,
+      "timestamp_ms": 1840
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 48,
+      "timestamp_ms": 1920
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 50,
+      "timestamp_ms": 2000
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0012999989849049598,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 52,
+      "timestamp_ms": 2080
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 54,
+      "timestamp_ms": 2160
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0009999967005569488,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 56,
+      "timestamp_ms": 2240
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 58,
+      "timestamp_ms": 2320
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0010999974620062858,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 60,
+      "timestamp_ms": 2400
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0011000010999850929,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0013000026228837669,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 62,
+      "timestamp_ms": 2480
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0010999974620062858,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 64,
+      "timestamp_ms": 2560
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 66,
+      "timestamp_ms": 2640
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0011999982234556228,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 68,
+      "timestamp_ms": 2720
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 70,
+      "timestamp_ms": 2800
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000900003215065226,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 72,
+      "timestamp_ms": 2880
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0014999968698248267,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 74,
+      "timestamp_ms": 2960
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000800002453615889,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 76,
+      "timestamp_ms": 3040
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 78,
+      "timestamp_ms": 3120
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000900003215065226,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 80,
+      "timestamp_ms": 3200
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 82,
+      "timestamp_ms": 3280
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 84,
+      "timestamp_ms": 3360
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 86,
+      "timestamp_ms": 3440
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 88,
+      "timestamp_ms": 3520
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000400003045797348,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 90,
+      "timestamp_ms": 3600
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 92,
+      "timestamp_ms": 3680
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 94,
+      "timestamp_ms": 3760
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.001400003384333104,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0009999967005569488,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 96,
+      "timestamp_ms": 3840
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 98,
+      "timestamp_ms": 3920
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 100,
+      "timestamp_ms": 4000
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0015000005078036338,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 102,
+      "timestamp_ms": 4080
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000800002453615889,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 104,
+      "timestamp_ms": 4160
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 106,
+      "timestamp_ms": 4240
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0013999997463542968,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0005999972927384079,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 108,
+      "timestamp_ms": 4320
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 110,
+      "timestamp_ms": 4400
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 112,
+      "timestamp_ms": 4480
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0015000005078036338,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 114,
+      "timestamp_ms": 4560
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0012000018614344299,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 116,
+      "timestamp_ms": 4640
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 118,
+      "timestamp_ms": 4720
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 120,
+      "timestamp_ms": 4800
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 122,
+      "timestamp_ms": 4880
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 124,
+      "timestamp_ms": 4960
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 126,
+      "timestamp_ms": 5040
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0011000010999850929,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000400003045797348,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 128,
+      "timestamp_ms": 5120
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0013999997463542968,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005999972927384079,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 130,
+      "timestamp_ms": 5200
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000800002453615889,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0011000010999850929,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 132,
+      "timestamp_ms": 5280
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0013000026228837669,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 134,
+      "timestamp_ms": 5360
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000800002453615889,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 136,
+      "timestamp_ms": 5440
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 138,
+      "timestamp_ms": 5520
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0013000026228837669,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 140,
+      "timestamp_ms": 5600
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006999980541877449,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0006999980541877449,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 142,
+      "timestamp_ms": 5680
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 144,
+      "timestamp_ms": 5760
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0015000005078036338,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 146,
+      "timestamp_ms": 5840
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0021000014385208488,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0012000018614344299,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 148,
+      "timestamp_ms": 5920
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 150,
+      "timestamp_ms": 6000
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 152,
+      "timestamp_ms": 6080
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0015000005078036338,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 154,
+      "timestamp_ms": 6160
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0013000026228837669,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 156,
+      "timestamp_ms": 6240
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 158,
+      "timestamp_ms": 6320
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 160,
+      "timestamp_ms": 6400
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000400003045797348,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 162,
+      "timestamp_ms": 6480
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 164,
+      "timestamp_ms": 6560
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 166,
+      "timestamp_ms": 6640
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0012000018614344299,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 168,
+      "timestamp_ms": 6720
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0012999989849049598,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 170,
+      "timestamp_ms": 6800
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000400003045797348,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 172,
+      "timestamp_ms": 6880
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0011999982234556228,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 174,
+      "timestamp_ms": 6960
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0011999982234556228,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005999972927384079,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 176,
+      "timestamp_ms": 7040
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 178,
+      "timestamp_ms": 7120
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0006999980541877449,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 180,
+      "timestamp_ms": 7200
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0012999989849049598,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 182,
+      "timestamp_ms": 7280
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0010999974620062858,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 184,
+      "timestamp_ms": 7360
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 186,
+      "timestamp_ms": 7440
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 188,
+      "timestamp_ms": 7520
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 190,
+      "timestamp_ms": 7600
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 192,
+      "timestamp_ms": 7680
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0006999980541877449,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 194,
+      "timestamp_ms": 7760
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 196,
+      "timestamp_ms": 7840
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000800002453615889,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 198,
+      "timestamp_ms": 7920
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 200,
+      "timestamp_ms": 8000
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 202,
+      "timestamp_ms": 8080
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0010000003385357559,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000400003045797348,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 204,
+      "timestamp_ms": 8160
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 206,
+      "timestamp_ms": 8240
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 208,
+      "timestamp_ms": 8320
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 210,
+      "timestamp_ms": 8400
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 212,
+      "timestamp_ms": 8480
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 214,
+      "timestamp_ms": 8560
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006999980541877449,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 216,
+      "timestamp_ms": 8640
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 218,
+      "timestamp_ms": 8720
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 220,
+      "timestamp_ms": 8800
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 222,
+      "timestamp_ms": 8880
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 224,
+      "timestamp_ms": 8960
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0005999972927384079,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 226,
+      "timestamp_ms": 9040
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 228,
+      "timestamp_ms": 9120
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 230,
+      "timestamp_ms": 9200
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 232,
+      "timestamp_ms": 9280
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006999980541877449,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 234,
+      "timestamp_ms": 9360
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006999980541877449,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 236,
+      "timestamp_ms": 9440
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000900003215065226,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 238,
+      "timestamp_ms": 9520
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 240,
+      "timestamp_ms": 9600
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005000001692678779,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 242,
+      "timestamp_ms": 9680
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 244,
+      "timestamp_ms": 9760
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 246,
+      "timestamp_ms": 9840
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.0,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶3.mp4",
+      "frame_index": 248,
+      "timestamp_ms": 9920
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 0.0006000009307172149,
+        "confidence": 0.5,
+        "payload": {
+          "pitch": 0.0,
+          "is_head_down": false
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.00019999788491986692,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0005999972927384079,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  }
+]

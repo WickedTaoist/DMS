@@ -1,15 +1,20 @@
 project:
   name: driver_phone_usage
-  output_dir: outputs
 
-input:
-  mode: single
-  video_path: ""
-  video_dir: ""
+data:
+  # Relative paths are resolved against project root.
+  video_dir: data/video
+  video_glob: "*.mp4"
+
+output:
+  # All batch/single outputs are written under this root directory.
+  root_dir: outputs
+
+pipeline:
+  sampling_fps: 10
 
 runtime:
   device: cpu
-  sample_fps: 10
   save_json: true
   save_csv: true
 

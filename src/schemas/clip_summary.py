@@ -10,7 +10,7 @@ class ClipSummary:
     total_frames_processed: int
     fps_processed: float
     total_duration_ms: int
-    event_count_phone_usage: int
+    event_count_suspected_phone_use: int
     event_total_duration_ms: int
     event_duration_ratio: float
     max_event_duration_ms: int

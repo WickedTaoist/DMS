@@ -1,0 +1,2 @@
+video_id,total_frames_processed,fps_processed,total_duration_ms,event_count_suspected_phone_use,event_total_duration_ms,event_duration_ratio,max_event_duration_ms,avg_event_duration_ms,clip_label,clip_risk_score,model_versions
+std_明确玩手机1.mp4,125,10.0,9920,0,0,0.0,0,0.0,normal,0.0,{}

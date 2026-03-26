@@ -9,5 +9,5 @@ class RuleBasedDecider(BaseDecider):
     def decide(self, fusion_output: Dict[str, Any]) -> Dict[str, Any]:
         risk = float(fusion_output.get("risk_score", 0.0))
         threshold = float(self.config.get("frame_risk_threshold", 0.6))
-        label = "phone_usage_suspected" if risk >= threshold else "normal"
+        label = "suspected_phone_use" if risk >= threshold else "normal"
         return {"frame_label": label, "decision_confidence": risk}
