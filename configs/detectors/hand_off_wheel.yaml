@@ -1,0 +1,3 @@
+detector: hand_off_wheel
+off_threshold: 0.5
+model_path: models/custom/hand_off_wheel.pt

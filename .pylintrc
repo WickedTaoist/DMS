@@ -1,0 +1,5 @@
+[MESSAGES CONTROL]
+disable=no-member,c-extension-no-member
+
+[TYPECHECK]
+extension-pkg-allow-list=cv2

@@ -1,0 +1,46 @@
+project:
+  name: driver_phone_usage
+  output_dir: outputs
+
+input:
+  mode: single
+  video_path: ""
+  video_dir: ""
+
+runtime:
+  device: cpu
+  sample_fps: 10
+  save_json: true
+  save_csv: true
+
+detectors:
+  enabled:
+    - head_pose
+    - gaze
+    - phone
+    - hand_off_wheel
+  configs:
+    head_pose:
+      pitch_down_threshold: 15.0
+    gaze:
+      gaze_down_threshold: 10.0
+    phone:
+      conf_threshold: 0.4
+    hand_off_wheel:
+      off_threshold: 0.5
+
+fusion:
+  type: rule
+  weights:
+    head_down: 0.25
+    gaze_down: 0.25
+    phone_present: 0.35
+    hand_off: 0.15
+
+decision:
+  frame_risk_threshold: 0.6
+  min_event_frames: 8
+  max_gap_frames: 3
+
+logging:
+  level: INFO

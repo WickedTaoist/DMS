@@ -1,0 +1,16 @@
+inherits: configs/base.yaml
+
+experiment:
+  name: baseline_rule_fusion
+  description: baseline with all four detectors and rule-based decision
+
+input:
+  mode: batch
+  video_dir: data/videos
+
+runtime:
+  sample_fps: 10
+
+decision:
+  frame_risk_threshold: 0.6
+  min_event_frames: 8

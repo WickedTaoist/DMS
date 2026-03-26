@@ -1,0 +1,3 @@
+detector: gaze
+gaze_down_threshold: 10.0
+model_path: models/openvino/gaze.xml

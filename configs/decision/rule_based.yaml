@@ -1,0 +1,4 @@
+decision_type: rule_based
+frame_risk_threshold: 0.6
+min_event_frames: 8
+max_gap_frames: 3
