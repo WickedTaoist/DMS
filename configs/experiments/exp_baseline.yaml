@@ -1,16 +1,49 @@
+# ============================================================
+# 基线实验配置 / Baseline experiment configuration
+# ------------------------------------------------------------
+# 该文件在 `configs/base.yaml` 基础上做增量覆盖，
+# 用于定义一个可复现的 baseline 实验。
+#
+# This file overrides `configs/base.yaml` incrementally
+# to define a reproducible baseline experiment.
+# ============================================================
+
+# 继承基础配置文件。
+# Inherit from the global base config.
 inherits: configs/base.yaml
 
 experiment:
+  # 实验名称，用于日志、记录和论文对比。
+  # Experiment name used for logging, reporting, and paper comparison.
   name: baseline_rule_fusion
+
+  # 实验描述，说明本次实验的主要策略。
+  # Human-readable experiment description.
   description: baseline with all four detectors and rule-based decision
 
 input:
+  # 运行模式：当前实验配置默认用于 batch。
+  # Execution mode: this experiment is intended for batch processing.
   mode: batch
-  video_dir: data/videos
+  # 若需要，可在实验级别覆盖视频目录。
+  # Can override the video directory at experiment level if needed.
+  video_dir: data/video
 
 runtime:
+  # 旧字段保留为兼容占位；当前主流程主要读取 `pipeline.sampling_fps`。
+  # Legacy field kept for compatibility; the current pipeline mainly reads `pipeline.sampling_fps`.
   sample_fps: 10
 
+pipeline:
+  # 实验级抽帧 FPS 覆盖。
+  # Experiment-level sampling FPS override.
+  sampling_fps: 10
+
 decision:
+  # 基线实验采用与基础配置相同的帧级阈值。
+  # Baseline uses the same frame-level threshold as the base config.
   frame_risk_threshold: 0.6
+
+  # 事件最短持续帧数。
+  # Minimum event duration in frames.
   min_event_frames: 8

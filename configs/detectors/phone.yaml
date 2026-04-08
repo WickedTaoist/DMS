@@ -1,3 +1,15 @@
+# ------------------------------------------------------------
+# 手机 detector 配置 / Phone detector configuration
+# ------------------------------------------------------------
+
+# detector 名称，应与 registry 中的 key 保持一致。
+# Detector name; should match the registry key.
 detector: phone
+
+# 手机检测置信度阈值。
+# Confidence threshold for phone detection.
 conf_threshold: 0.4
+
+# 真实 YOLO 手机检测模型路径。
+# Path to the real YOLO phone detection model.
 model_path: models/yolo/phone.pt

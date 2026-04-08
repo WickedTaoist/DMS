@@ -64,3 +64,26 @@
 2026-03-26 21:34:05,374 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_疑似玩手机2.mp4 | processed_frames=125 | events=0
 2026-03-26 21:34:05,374 | INFO | Progress 10/10 | Processing: C:\Cursor_project\DMS\data\video\std_疑似玩手机3.mp4
 2026-03-26 21:34:05,630 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_疑似玩手机3.mp4 | processed_frames=125 | events=0
+2026-04-08 23:59:54,136 | INFO | Resolved video_dir: C:\Cursor_project\DMS\data\video
+2026-04-08 23:59:54,136 | INFO | Using video_glob: *.mp4
+2026-04-08 23:59:54,137 | INFO | Discovered 10 videos for batch run
+2026-04-08 23:59:54,137 | INFO | Progress 1/10 | Processing: C:\Cursor_project\DMS\data\video\std_后排乘客玩手机.mp4
+2026-04-08 23:59:56,011 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_后排乘客玩手机.mp4 | processed_frames=125 | events=0
+2026-04-08 23:59:56,015 | INFO | Progress 2/10 | Processing: C:\Cursor_project\DMS\data\video\std_明确玩手机1.mp4
+2026-04-08 23:59:57,655 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_明确玩手机1.mp4 | processed_frames=125 | events=0
+2026-04-08 23:59:57,659 | INFO | Progress 3/10 | Processing: C:\Cursor_project\DMS\data\video\std_明确玩手机2.mp4
+2026-04-08 23:59:59,698 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_明确玩手机2.mp4 | processed_frames=125 | events=0
+2026-04-08 23:59:59,702 | INFO | Progress 4/10 | Processing: C:\Cursor_project\DMS\data\video\std_明确玩手机3.mp4
+2026-04-09 00:00:01,654 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_明确玩手机3.mp4 | processed_frames=125 | events=0
+2026-04-09 00:00:01,659 | INFO | Progress 5/10 | Processing: C:\Cursor_project\DMS\data\video\std_正常驾驶1.mp4
+2026-04-09 00:00:03,504 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_正常驾驶1.mp4 | processed_frames=125 | events=0
+2026-04-09 00:00:03,508 | INFO | Progress 6/10 | Processing: C:\Cursor_project\DMS\data\video\std_正常驾驶2.mp4
+2026-04-09 00:00:05,121 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_正常驾驶2.mp4 | processed_frames=125 | events=0
+2026-04-09 00:00:05,126 | INFO | Progress 7/10 | Processing: C:\Cursor_project\DMS\data\video\std_正常驾驶3.mp4
+2026-04-09 00:00:06,951 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_正常驾驶3.mp4 | processed_frames=125 | events=0
+2026-04-09 00:00:06,956 | INFO | Progress 8/10 | Processing: C:\Cursor_project\DMS\data\video\std_疑似玩手机1.mp4
+2026-04-09 00:00:08,844 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_疑似玩手机1.mp4 | processed_frames=125 | events=0
+2026-04-09 00:00:08,848 | INFO | Progress 9/10 | Processing: C:\Cursor_project\DMS\data\video\std_疑似玩手机2.mp4
+2026-04-09 00:00:10,537 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_疑似玩手机2.mp4 | processed_frames=125 | events=0
+2026-04-09 00:00:10,542 | INFO | Progress 10/10 | Processing: C:\Cursor_project\DMS\data\video\std_疑似玩手机3.mp4
+2026-04-09 00:00:12,306 | INFO | Finished video: C:\Cursor_project\DMS\data\video\std_疑似玩手机3.mp4 | processed_frames=125 | events=0

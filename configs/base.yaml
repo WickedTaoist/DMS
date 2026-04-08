@@ -1,51 +1,128 @@
+# ============================================================
+# 全局基础配置 / Global base configuration
+# ------------------------------------------------------------
+# 该文件定义项目的默认运行参数，适用于 single 和 batch 模式。
+# 建议把“稳定默认值”放在这里，把“实验覆盖项”放到 experiments/ 中。
+#
+# This file defines the default runtime parameters for the project,
+# covering both single and batch modes.
+# Put stable defaults here, and put experiment-specific overrides
+# under `configs/experiments/`.
+# ============================================================
+
 project:
+  # 项目名称，仅用于标识与日志语义。
+  # Project name used mainly for identification and logging semantics.
   name: driver_phone_usage
 
 data:
-  # Relative paths are resolved against project root.
+  # 相对路径统一相对于项目根目录解析。
+  # Relative paths are resolved against the project root directory.
+
+  # 默认批量输入视频目录。
+  # Default batch input video directory.
   video_dir: data/video
+
+  # 扫描视频时使用的 glob 模式。
+  # Glob pattern used when scanning input videos.
   video_glob: "*.mp4"
 
 output:
-  # All batch/single outputs are written under this root directory.
+  # 所有 single/batch 的输出都会写到该根目录下。
+  # All single/batch outputs are written under this root directory.
   root_dir: outputs
 
 pipeline:
+  # 抽帧目标 FPS。
+  # Target FPS used for frame sampling.
   sampling_fps: 10
 
 runtime:
+  # 推理设备占位字段，后续接真实模型时可扩展 cpu/gpu/openvino device。
+  # Placeholder runtime device field for future real model integration.
   device: cpu
+
+  # 是否导出 JSON 结果。
+  # Whether JSON outputs should be saved.
   save_json: true
+
+  # 是否导出 CSV 结果。
+  # Whether CSV outputs should be saved.
   save_csv: true
 
 detectors:
+  # 当前启用的 detector 列表。
+  # List of enabled detectors.
   enabled:
     - head_pose
     - gaze
     - phone
     - hand_off_wheel
+
+  # 每个 detector 的私有配置。
+  # Per-detector private configuration blocks.
   configs:
     head_pose:
+      # 头部下倾阈值（pitch）。
+      # Head-down threshold based on pitch angle.
       pitch_down_threshold: 15.0
+      # OpenVINO IR 模型路径（xml + bin）。
+      # OpenVINO IR model path (xml + bin).
+      model_path: models/openvino/head_pose.xml
+      # OpenVINO 推理设备。
+      # OpenVINO inference device.
+      device: CPU
+      # 人脸 ROI 扩展比例。
+      # Face ROI padding ratio.
+      face_padding_ratio: 0.2
     gaze:
+      # 视线下移阈值。
+      # Downward gaze threshold.
       gaze_down_threshold: 10.0
     phone:
+      # 手机检测置信度阈值。
+      # Confidence threshold for phone detection.
       conf_threshold: 0.4
     hand_off_wheel:
+      # 手离方向盘判定阈值。
+      # Threshold for hand-off-wheel detection.
       off_threshold: 0.5
 
 fusion:
+  # 当前融合策略类型。
+  # Current fusion strategy type.
   type: rule
   weights:
+    # 头部下倾信号权重。
+    # Weight for head-down signal.
     head_down: 0.25
+
+    # 视线下移信号权重。
+    # Weight for downward-gaze signal.
     gaze_down: 0.25
+
+    # 手机出现信号权重。
+    # Weight for phone-presence signal.
     phone_present: 0.35
+
+    # 手离方向盘信号权重。
+    # Weight for hand-off-wheel signal.
     hand_off: 0.15
 
 decision:
+  # 帧级可疑判定阈值；risk_score 超过该值则标为 suspected_phone_use。
+  # Frame-level suspicious threshold; frames above it become `suspected_phone_use`.
   frame_risk_threshold: 0.6
+
+  # 构成有效事件所需的最少连续帧数。
+  # Minimum number of consecutive frames required to form an event.
   min_event_frames: 8
+
+  # 时间平滑时允许填补的最大 normal 间隙长度。
+  # Maximum short normal gap that temporal smoothing is allowed to fill.
   max_gap_frames: 3
 
 logging:
+  # 日志等级，例如 DEBUG / INFO / WARNING。
+  # Logging level such as DEBUG / INFO / WARNING.
   level: INFO

@@ -1,4 +1,19 @@
+# ------------------------------------------------------------
+# 规则判定配置 / Rule-based decision configuration
+# ------------------------------------------------------------
+
+# 判定策略类型。
+# Decision strategy type.
 decision_type: rule_based
+
+# 帧级风险阈值；超过该值的帧会被判为可疑。
+# Frame-level risk threshold for suspicious classification.
 frame_risk_threshold: 0.6
+
+# 构成事件所需的最少连续帧数。
+# Minimum number of consecutive frames required to form an event.
 min_event_frames: 8
+
+# 时间平滑允许填补的最大 normal 间隔。
+# Maximum normal-gap length that temporal smoothing can fill.
 max_gap_frames: 3

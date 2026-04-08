@@ -8,17 +8,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0030000010156072676,
-        "confidence": 0.5,
+        "latency_ms": 11.948999999731313,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 1.953125,
+          "yaw": 14.375,
+          "roll": 1.4921875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000800002453615889,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -27,191 +30,8 @@
         "error": null
       },
       "phone": {
-        "success": true,
-        "latency_ms": 0.0011999982234556228,
-        "confidence": 0.5,
-        "payload": {
-          "boxes": [],
-          "phone_present": false
-        },
-        "error": null
-      },
-      "hand_off_wheel": {
-        "success": true,
-        "latency_ms": 0.000200001522898674,
-        "confidence": 0.5,
-        "payload": {
-          "hand_off": false
-        },
-        "error": null
-      }
-    },
-    "fusion": {
-      "evidence_scores": {
-        "head_down_score": 0.0,
-        "gaze_down_score": 0.0,
-        "phone_score": 0.0,
-        "hand_off_score": 0.0
-      },
-      "risk_score": 0.0
-    },
-    "decision": {
-      "frame_label": "normal",
-      "decision_confidence": 0.0
-    }
-  },
-  {
-    "meta": {
-      "video_id": "std_正常驾驶2.mp4",
-      "frame_index": 2,
-      "timestamp_ms": 80
-    },
-    "detector_outputs": {
-      "head_pose": {
-        "success": true,
-        "latency_ms": 0.0006999980541877449,
-        "confidence": 0.5,
-        "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
-        },
-        "error": null
-      },
-      "gaze": {
-        "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
-        "payload": {
-          "gaze_pitch": 0.0,
-          "is_gaze_down": false
-        },
-        "error": null
-      },
-      "phone": {
-        "success": true,
-        "latency_ms": 0.000700001692166552,
-        "confidence": 0.5,
-        "payload": {
-          "boxes": [],
-          "phone_present": false
-        },
-        "error": null
-      },
-      "hand_off_wheel": {
-        "success": true,
-        "latency_ms": 0.0,
-        "confidence": 0.5,
-        "payload": {
-          "hand_off": false
-        },
-        "error": null
-      }
-    },
-    "fusion": {
-      "evidence_scores": {
-        "head_down_score": 0.0,
-        "gaze_down_score": 0.0,
-        "phone_score": 0.0,
-        "hand_off_score": 0.0
-      },
-      "risk_score": 0.0
-    },
-    "decision": {
-      "frame_label": "normal",
-      "decision_confidence": 0.0
-    }
-  },
-  {
-    "meta": {
-      "video_id": "std_正常驾驶2.mp4",
-      "frame_index": 4,
-      "timestamp_ms": 160
-    },
-    "detector_outputs": {
-      "head_pose": {
-        "success": true,
-        "latency_ms": 0.0011000010999850929,
-        "confidence": 0.5,
-        "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
-        },
-        "error": null
-      },
-      "gaze": {
-        "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
-        "payload": {
-          "gaze_pitch": 0.0,
-          "is_gaze_down": false
-        },
-        "error": null
-      },
-      "phone": {
-        "success": true,
-        "latency_ms": 0.000800002453615889,
-        "confidence": 0.5,
-        "payload": {
-          "boxes": [],
-          "phone_present": false
-        },
-        "error": null
-      },
-      "hand_off_wheel": {
-        "success": true,
-        "latency_ms": 0.0,
-        "confidence": 0.5,
-        "payload": {
-          "hand_off": false
-        },
-        "error": null
-      }
-    },
-    "fusion": {
-      "evidence_scores": {
-        "head_down_score": 0.0,
-        "gaze_down_score": 0.0,
-        "phone_score": 0.0,
-        "hand_off_score": 0.0
-      },
-      "risk_score": 0.0
-    },
-    "decision": {
-      "frame_label": "normal",
-      "decision_confidence": 0.0
-    }
-  },
-  {
-    "meta": {
-      "video_id": "std_正常驾驶2.mp4",
-      "frame_index": 6,
-      "timestamp_ms": 240
-    },
-    "detector_outputs": {
-      "head_pose": {
-        "success": true,
-        "latency_ms": 0.0009999967005569488,
-        "confidence": 0.5,
-        "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
-        },
-        "error": null
-      },
-      "gaze": {
         "success": true,
         "latency_ms": 0.000300002284348011,
-        "confidence": 0.5,
-        "payload": {
-          "gaze_pitch": 0.0,
-          "is_gaze_down": false
-        },
-        "error": null
-      },
-      "phone": {
-        "success": true,
-        "latency_ms": 0.0008999995770864189,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -246,23 +66,218 @@
   {
     "meta": {
       "video_id": "std_正常驾驶2.mp4",
+      "frame_index": 2,
+      "timestamp_ms": 80
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 9.773500001756474,
+        "confidence": 0.3,
+        "payload": {
+          "pitch": 10.25,
+          "yaw": 14.625,
+          "roll": 2.609375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶2.mp4",
+      "frame_index": 4,
+      "timestamp_ms": 160
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 10.399999999208376,
+        "confidence": 0.3,
+        "payload": {
+          "pitch": 0.83203125,
+          "yaw": 12.6875,
+          "roll": 2.640625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶2.mp4",
+      "frame_index": 6,
+      "timestamp_ms": 240
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 10.209300002316013,
+        "confidence": 0.3,
+        "payload": {
+          "pitch": -1.046875,
+          "yaw": 12.8125,
+          "roll": 1.5078125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶2.mp4",
       "frame_index": 8,
       "timestamp_ms": 320
     },
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
-        "confidence": 0.5,
+        "latency_ms": 10.478200001671212,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.765625,
+          "yaw": 13.25,
+          "roll": 1.8828125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -282,7 +297,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -313,17 +328,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 9.677199999714503,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -3.9375,
+          "yaw": 14.875,
+          "roll": 1.5859375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -333,7 +351,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0006000009307172149,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -343,7 +361,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -374,17 +392,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0005999972927384079,
-        "confidence": 0.5,
+        "latency_ms": 11.101000000053318,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.3125,
+          "yaw": 13.75,
+          "roll": 1.4375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0013999997463542968,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -394,7 +415,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.000400003045797348,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -404,7 +425,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -435,17 +456,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
-        "confidence": 0.5,
+        "latency_ms": 9.372299999085953,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -3.71875,
+          "yaw": 13.8125,
+          "roll": 2.015625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0010000003385357559,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -455,7 +479,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -465,7 +489,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -496,17 +520,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
-        "confidence": 0.5,
+        "latency_ms": 10.095300000102725,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.390625,
+          "yaw": 14.4375,
+          "roll": 2.671875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -516,7 +543,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -557,17 +584,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0004999965312890708,
-        "confidence": 0.5,
+        "latency_ms": 9.445800002140459,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.890625,
+          "yaw": 14.5625,
+          "roll": 2.09375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0008999995770864189,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -577,7 +607,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000400003045797348,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -587,7 +617,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -618,17 +648,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
-        "confidence": 0.5,
+        "latency_ms": 10.569300000497606,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -3.359375,
+          "yaw": 16.75,
+          "roll": 1.3125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -638,7 +671,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.000400003045797348,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -648,7 +681,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -679,17 +712,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
-        "confidence": 0.5,
+        "latency_ms": 10.442099999636412,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -0.7734375,
+          "yaw": 20.875,
+          "roll": 3.265625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0008999995770864189,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -740,17 +776,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0024000000848900527,
-        "confidence": 0.5,
+        "latency_ms": 10.199899999861373,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 3.671875,
+          "yaw": 26.25,
+          "roll": 3.765625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -760,7 +799,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0011000010999850929,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -801,17 +840,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0011000010999850929,
-        "confidence": 0.5,
+        "latency_ms": 9.374100001878105,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 1.96875,
+          "yaw": 35.75,
+          "roll": -0.7578125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -821,7 +863,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -831,7 +873,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -862,17 +904,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
-        "confidence": 0.5,
+        "latency_ms": 8.952899999712827,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 2.921875,
+          "yaw": 39.75,
+          "roll": 0.85546875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -882,7 +927,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -923,17 +968,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
-        "confidence": 0.5,
+        "latency_ms": 10.071599997900194,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 0.44140625,
+          "yaw": 41.0,
+          "roll": 0.365234375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0006000009307172149,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -953,7 +1001,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -984,17 +1032,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 10.12540000010631,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 3.59375,
+          "yaw": 35.25,
+          "roll": 0.3671875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1004,7 +1055,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1014,7 +1065,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1045,17 +1096,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
-        "confidence": 0.5,
+        "latency_ms": 9.641200002079131,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -5.90625,
+          "yaw": 26.375,
+          "roll": 4.09375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1065,7 +1119,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1075,7 +1129,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1106,17 +1160,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
-        "confidence": 0.5,
+        "latency_ms": 10.191700002906146,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 5.75,
+          "yaw": 17.5,
+          "roll": 1.7578125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1126,7 +1183,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1136,7 +1193,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1167,17 +1224,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0021999985619913787,
-        "confidence": 0.5,
+        "latency_ms": 10.17669999782811,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.359375,
+          "yaw": 13.5,
+          "roll": 1.515625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1197,7 +1257,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1228,17 +1288,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0011000010999850929,
-        "confidence": 0.5,
+        "latency_ms": 9.833700001763646,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.6875,
+          "yaw": 12.375,
+          "roll": 1.6484375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0006000009307172149,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1248,7 +1311,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1258,7 +1321,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1289,17 +1352,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0012999989849049598,
-        "confidence": 0.5,
+        "latency_ms": 9.502400000201305,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -5.21875,
+          "yaw": 13.3125,
+          "roll": 2.671875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.0006000009307172149,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1309,7 +1375,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0006999980541877449,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1319,7 +1385,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1350,17 +1416,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
-        "confidence": 0.5,
+        "latency_ms": 10.037000000011176,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -6.34375,
+          "yaw": 12.3125,
+          "roll": 3.46875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1370,7 +1439,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005999972927384079,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1380,7 +1449,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1411,17 +1480,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0006000009307172149,
-        "confidence": 0.5,
+        "latency_ms": 9.59829999919748,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.0625,
+          "yaw": 14.125,
+          "roll": 2.828125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0005999972927384079,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1431,7 +1503,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1441,7 +1513,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1472,17 +1544,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 10.059799998998642,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.8984375,
+          "yaw": 12.5625,
+          "roll": 2.484375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1492,7 +1567,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1502,7 +1577,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1533,17 +1608,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 9.685200002422789,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -3.28125,
+          "yaw": 13.375,
+          "roll": 2.4375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1563,7 +1641,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1594,17 +1672,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
-        "confidence": 0.5,
+        "latency_ms": 9.60059999852092,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.34375,
+          "yaw": 13.3125,
+          "roll": 1.8203125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1614,7 +1695,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1624,7 +1705,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1655,17 +1736,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0006000009307172149,
-        "confidence": 0.5,
+        "latency_ms": 9.973899999749847,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.8984375,
+          "yaw": 14.3125,
+          "roll": 2.703125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1675,7 +1759,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0007999988156370819,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1716,17 +1800,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
-        "confidence": 0.5,
+        "latency_ms": 9.964599998056656,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -3.625,
+          "yaw": 12.6875,
+          "roll": 2.640625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1736,7 +1823,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1746,7 +1833,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1777,17 +1864,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0011000010999850929,
-        "confidence": 0.5,
+        "latency_ms": 9.943699998984812,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.078125,
+          "yaw": 12.4375,
+          "roll": 2.3125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1797,7 +1887,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1838,17 +1928,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0011000010999850929,
-        "confidence": 0.5,
+        "latency_ms": 10.693000000173924,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.03125,
+          "yaw": 13.875,
+          "roll": 2.265625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1858,7 +1951,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0006999980541877449,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1899,17 +1992,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
-        "confidence": 0.5,
+        "latency_ms": 10.209000000031665,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.125,
+          "yaw": 15.125,
+          "roll": 2.59375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.0010999974620062858,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1919,7 +2015,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1929,7 +2025,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -1960,17 +2056,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0006999980541877449,
-        "confidence": 0.5,
+        "latency_ms": 10.203199999523349,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.40625,
+          "yaw": 15.375,
+          "roll": 1.953125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -1980,7 +2079,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -1990,7 +2089,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -2021,17 +2120,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
-        "confidence": 0.5,
+        "latency_ms": 10.371300002589123,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 0.12890625,
+          "yaw": 15.375,
+          "roll": 2.515625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2041,7 +2143,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0006000009307172149,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -2082,17 +2184,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0005999972927384079,
-        "confidence": 0.5,
+        "latency_ms": 9.899099997710437,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.71875,
+          "yaw": 15.5,
+          "roll": 3.609375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.0010000003385357559,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2102,7 +2207,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0006000009307172149,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -2143,17 +2248,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 9.741399997437838,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.484375,
+          "yaw": 12.5,
+          "roll": 2.578125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2173,7 +2281,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -2204,17 +2312,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0011000010999850929,
-        "confidence": 0.5,
+        "latency_ms": 10.012099999585189,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -0.7734375,
+          "yaw": 12.625,
+          "roll": 2.1875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000900003215065226,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2224,7 +2335,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -2234,7 +2345,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -2265,17 +2376,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
-        "confidence": 0.5,
+        "latency_ms": 10.4910000009113,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -0.3359375,
+          "yaw": 11.9375,
+          "roll": 2.375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2285,7 +2399,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -2326,17 +2440,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0012000018614344299,
-        "confidence": 0.5,
+        "latency_ms": 9.950600000593113,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 0.197265625,
+          "yaw": 16.875,
+          "roll": 3.0625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.0010000003385357559,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2346,7 +2463,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000800002453615889,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -2356,7 +2473,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -2387,17 +2504,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000400003045797348,
-        "confidence": 0.5,
+        "latency_ms": 8.892199999536388,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 1.109375,
+          "yaw": 16.625,
+          "roll": 3.265625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2407,7 +2527,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -2417,7 +2537,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -2448,17 +2568,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000800002453615889,
-        "confidence": 0.5,
+        "latency_ms": 9.116399996855762,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.2890625,
+          "yaw": 19.625,
+          "roll": 2.265625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2468,7 +2591,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -2478,7 +2601,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -2509,17 +2632,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
-        "confidence": 0.5,
+        "latency_ms": 9.570199999870965,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.0234375,
+          "yaw": 20.0,
+          "roll": 3.375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2529,7 +2655,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -2570,17 +2696,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
-        "confidence": 0.5,
+        "latency_ms": 9.749699998792494,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 4.59375,
+          "yaw": 34.25,
+          "roll": -0.54296875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000400003045797348,
+        "latency_ms": 0.0008999995770864189,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2590,7 +2719,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -2600,7 +2729,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -2631,17 +2760,148 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0007999988156370819,
-        "confidence": 0.5,
+        "latency_ms": 9.7408000001451,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 9.8125,
+          "yaw": 34.75,
+          "roll": -9.625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.0008999995770864189,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 9.999712347052991e-05,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶2.mp4",
+      "frame_index": 88,
+      "timestamp_ms": 3520
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 9.010800000396557,
+        "confidence": 0.3,
+        "payload": {
+          "pitch": 10.5625,
+          "yaw": 32.5,
+          "roll": -7.4375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0007999988156370819,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.00039999940781854093,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000200001522898674,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶2.mp4",
+      "frame_index": 90,
+      "timestamp_ms": 3600
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 10.586100001091836,
+        "confidence": 0.3,
+        "payload": {
+          "pitch": 13.125,
+          "yaw": 33.75,
+          "roll": -4.25,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.0008999995770864189,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2686,145 +2946,26 @@
   {
     "meta": {
       "video_id": "std_正常驾驶2.mp4",
-      "frame_index": 88,
-      "timestamp_ms": 3520
-    },
-    "detector_outputs": {
-      "head_pose": {
-        "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
-        "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
-        },
-        "error": null
-      },
-      "gaze": {
-        "success": true,
-        "latency_ms": 0.000100000761449337,
-        "confidence": 0.5,
-        "payload": {
-          "gaze_pitch": 0.0,
-          "is_gaze_down": false
-        },
-        "error": null
-      },
-      "phone": {
-        "success": true,
-        "latency_ms": 0.000300002284348011,
-        "confidence": 0.5,
-        "payload": {
-          "boxes": [],
-          "phone_present": false
-        },
-        "error": null
-      },
-      "hand_off_wheel": {
-        "success": true,
-        "latency_ms": 0.000100000761449337,
-        "confidence": 0.5,
-        "payload": {
-          "hand_off": false
-        },
-        "error": null
-      }
-    },
-    "fusion": {
-      "evidence_scores": {
-        "head_down_score": 0.0,
-        "gaze_down_score": 0.0,
-        "phone_score": 0.0,
-        "hand_off_score": 0.0
-      },
-      "risk_score": 0.0
-    },
-    "decision": {
-      "frame_label": "normal",
-      "decision_confidence": 0.0
-    }
-  },
-  {
-    "meta": {
-      "video_id": "std_正常驾驶2.mp4",
-      "frame_index": 90,
-      "timestamp_ms": 3600
-    },
-    "detector_outputs": {
-      "head_pose": {
-        "success": true,
-        "latency_ms": 0.00019999788491986692,
-        "confidence": 0.5,
-        "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
-        },
-        "error": null
-      },
-      "gaze": {
-        "success": true,
-        "latency_ms": 0.00019999788491986692,
-        "confidence": 0.5,
-        "payload": {
-          "gaze_pitch": 0.0,
-          "is_gaze_down": false
-        },
-        "error": null
-      },
-      "phone": {
-        "success": true,
-        "latency_ms": 0.0006000009307172149,
-        "confidence": 0.5,
-        "payload": {
-          "boxes": [],
-          "phone_present": false
-        },
-        "error": null
-      },
-      "hand_off_wheel": {
-        "success": true,
-        "latency_ms": 0.0,
-        "confidence": 0.5,
-        "payload": {
-          "hand_off": false
-        },
-        "error": null
-      }
-    },
-    "fusion": {
-      "evidence_scores": {
-        "head_down_score": 0.0,
-        "gaze_down_score": 0.0,
-        "phone_score": 0.0,
-        "hand_off_score": 0.0
-      },
-      "risk_score": 0.0
-    },
-    "decision": {
-      "frame_label": "normal",
-      "decision_confidence": 0.0
-    }
-  },
-  {
-    "meta": {
-      "video_id": "std_正常驾驶2.mp4",
       "frame_index": 92,
       "timestamp_ms": 3680
     },
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
-        "confidence": 0.5,
+        "latency_ms": 10.253199998260243,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 8.875,
+          "yaw": 33.5,
+          "roll": -3.984375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0008999995770864189,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2834,7 +2975,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -2844,7 +2985,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -2875,17 +3016,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0011000010999850929,
-        "confidence": 0.5,
+        "latency_ms": 10.72059999933117,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 9.25,
+          "yaw": 35.0,
+          "roll": -6.625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2905,7 +3049,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -2936,17 +3080,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
-        "confidence": 0.5,
+        "latency_ms": 10.509499999898253,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 14.375,
+          "yaw": 39.25,
+          "roll": -2.734375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -2956,7 +3103,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -2997,17 +3144,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000400003045797348,
-        "confidence": 0.5,
+        "latency_ms": 10.063300000183517,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 3.984375,
+          "yaw": 24.625,
+          "roll": 2.875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3017,7 +3167,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0006000009307172149,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3058,17 +3208,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
-        "confidence": 0.5,
+        "latency_ms": 9.87130000066827,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -5.53125,
+          "yaw": 19.375,
+          "roll": 0.94140625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0008999995770864189,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3078,7 +3231,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3088,7 +3241,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3119,17 +3272,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 11.336999999912223,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 0.984375,
+          "yaw": 19.5,
+          "roll": 0.92578125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0011000010999850929,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3149,7 +3305,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3180,17 +3336,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
-        "confidence": 0.5,
+        "latency_ms": 10.485499999049352,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.84375,
+          "yaw": 19.125,
+          "roll": 3.078125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3200,7 +3359,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000800002453615889,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3210,7 +3369,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3241,17 +3400,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
-        "confidence": 0.5,
+        "latency_ms": 10.835400000360096,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.703125,
+          "yaw": 18.375,
+          "roll": 2.390625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3261,7 +3423,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3271,7 +3433,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3302,17 +3464,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
-        "confidence": 0.5,
+        "latency_ms": 10.001600003306521,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.9765625,
+          "yaw": 18.5,
+          "roll": 4.375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3322,7 +3487,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.000400003045797348,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3332,7 +3497,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3363,17 +3528,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 11.031899997760775,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.9140625,
+          "yaw": 18.375,
+          "roll": 3.09375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0012000018614344299,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3383,7 +3551,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.0006000009307172149,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3393,7 +3561,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3424,17 +3592,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 11.488400003145216,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -5.78125,
+          "yaw": 19.5,
+          "roll": 1.6328125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3444,7 +3615,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3454,7 +3625,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3485,17 +3656,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
-        "confidence": 0.5,
+        "latency_ms": 10.10609999866574,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -0.72265625,
+          "yaw": 18.5,
+          "roll": 1.890625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3505,7 +3679,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3515,7 +3689,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3546,17 +3720,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0007999988156370819,
-        "confidence": 0.5,
+        "latency_ms": 9.925300000759307,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 6.9375,
+          "yaw": 26.0,
+          "roll": 2.046875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3566,7 +3743,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3576,7 +3753,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3607,17 +3784,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0007999988156370819,
-        "confidence": 0.5,
+        "latency_ms": 9.977300000173273,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 5.3125,
+          "yaw": 38.5,
+          "roll": -8.6875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3627,7 +3807,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3637,7 +3817,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3668,17 +3848,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
-        "confidence": 0.5,
+        "latency_ms": 9.670999999798369,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 5.46875,
+          "yaw": 33.25,
+          "roll": -6.1875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3688,7 +3871,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3729,17 +3912,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
-        "confidence": 0.5,
+        "latency_ms": 9.398099999089027,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 9.5625,
+          "yaw": 24.75,
+          "roll": -7.53125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3749,7 +3935,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3759,7 +3945,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3790,17 +3976,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
-        "confidence": 0.5,
+        "latency_ms": 9.991800001444062,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 4.0,
+          "yaw": 25.5,
+          "roll": -11.125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3810,7 +3999,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3820,7 +4009,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -3851,17 +4040,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
-        "confidence": 0.5,
+        "latency_ms": 10.178000000450993,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 2.390625,
+          "yaw": 34.25,
+          "roll": -6.28125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0008999995770864189,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3871,7 +4063,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -3912,17 +4104,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
-        "confidence": 0.5,
+        "latency_ms": 10.236799997073831,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 10.5,
+          "yaw": 41.0,
+          "roll": -7.65625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0005999972927384079,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3973,17 +4168,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000800002453615889,
-        "confidence": 0.5,
+        "latency_ms": 10.325600000214763,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 0.43359375,
+          "yaw": 26.125,
+          "roll": -0.1240234375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0008999995770864189,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -3993,7 +4191,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0007999988156370819,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4003,7 +4201,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -4034,17 +4232,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
-        "confidence": 0.5,
+        "latency_ms": 10.672899999917718,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -8.1875,
+          "yaw": 18.25,
+          "roll": 1.6328125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4054,7 +4255,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4095,17 +4296,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 10.427099998196354,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -8.75,
+          "yaw": 15.0,
+          "roll": 0.0712890625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0008999995770864189,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4115,7 +4319,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4156,17 +4360,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
-        "confidence": 0.5,
+        "latency_ms": 10.310999998182524,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 0.8046875,
+          "yaw": 14.5,
+          "roll": 2.53125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4176,7 +4383,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4217,17 +4424,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0006000009307172149,
-        "confidence": 0.5,
+        "latency_ms": 10.255799999868032,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -6.15625,
+          "yaw": 12.0,
+          "roll": 2.625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4237,7 +4447,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4278,17 +4488,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
-        "confidence": 0.5,
+        "latency_ms": 9.936200000083772,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -6.21875,
+          "yaw": 13.5,
+          "roll": 2.390625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4298,7 +4511,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4308,7 +4521,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -4339,17 +4552,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 10.07949999984703,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -3.15625,
+          "yaw": 12.8125,
+          "roll": 3.421875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.0010999974620062858,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4359,7 +4575,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4369,7 +4585,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -4400,17 +4616,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
-        "confidence": 0.5,
+        "latency_ms": 10.186399998929119,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.65625,
+          "yaw": 12.25,
+          "roll": 3.171875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4420,7 +4639,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4461,17 +4680,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
-        "confidence": 0.5,
+        "latency_ms": 9.28589999966789,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.5234375,
+          "yaw": 14.25,
+          "roll": 3.359375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4481,7 +4703,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4491,7 +4713,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -4522,17 +4744,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
-        "confidence": 0.5,
+        "latency_ms": 9.386800000356743,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.28125,
+          "yaw": 14.5625,
+          "roll": 3.53125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4542,7 +4767,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4552,7 +4777,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -4583,17 +4808,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
-        "confidence": 0.5,
+        "latency_ms": 9.943799999746261,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -5.9375,
+          "yaw": 13.0,
+          "roll": 2.984375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4603,7 +4831,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0006000009307172149,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4613,7 +4841,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -4644,17 +4872,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0006000009307172149,
-        "confidence": 0.5,
+        "latency_ms": 10.171900001296308,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -6.71875,
+          "yaw": 13.75,
+          "roll": 1.2578125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4664,7 +4895,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4705,17 +4936,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
-        "confidence": 0.5,
+        "latency_ms": 9.78179999947315,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.90625,
+          "yaw": 16.125,
+          "roll": 2.578125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4725,7 +4959,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000400003045797348,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4766,17 +5000,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
-        "confidence": 0.5,
+        "latency_ms": 9.44309999977122,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -3.953125,
+          "yaw": 12.875,
+          "roll": -0.95703125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4786,7 +5023,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4796,7 +5033,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -4827,17 +5064,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 9.943699998984812,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -5.09375,
+          "yaw": 13.25,
+          "roll": -0.92578125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4847,7 +5087,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4888,17 +5128,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
-        "confidence": 0.5,
+        "latency_ms": 10.279199999786215,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -5.09375,
+          "yaw": 12.0,
+          "roll": -0.53125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000400003045797348,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4908,7 +5151,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4918,7 +5161,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -4949,17 +5192,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
-        "confidence": 0.5,
+        "latency_ms": 9.817000001930865,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -8.3125,
+          "yaw": 13.1875,
+          "roll": -0.0595703125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -4969,7 +5215,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -4979,7 +5225,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5010,17 +5256,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
-        "confidence": 0.5,
+        "latency_ms": 9.408500001882203,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -9.0,
+          "yaw": 12.875,
+          "roll": -0.5234375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5030,7 +5279,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005999972927384079,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5040,7 +5289,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5071,17 +5320,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0013000026228837669,
-        "confidence": 0.5,
+        "latency_ms": 10.402100000646897,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.125,
+          "yaw": 12.0625,
+          "roll": -0.8203125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5091,7 +5343,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.0006000009307172149,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5101,7 +5353,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5132,17 +5384,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
-        "confidence": 0.5,
+        "latency_ms": 10.273400002915878,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.84375,
+          "yaw": 12.75,
+          "roll": -0.0703125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5152,7 +5407,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5162,7 +5417,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5193,17 +5448,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0006000009307172149,
-        "confidence": 0.5,
+        "latency_ms": 9.842799998295959,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -9.6875,
+          "yaw": 7.125,
+          "roll": 1.6953125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5213,7 +5471,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5254,17 +5512,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
-        "confidence": 0.5,
+        "latency_ms": 9.869800000160467,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -7.0625,
+          "yaw": 0.85546875,
+          "roll": -0.4453125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000400003045797348,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5274,7 +5535,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5284,7 +5545,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5315,17 +5576,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
-        "confidence": 0.5,
+        "latency_ms": 9.988500001782086,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -8.0625,
+          "yaw": -0.9375,
+          "roll": -0.322265625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5335,7 +5599,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5376,17 +5640,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
-        "confidence": 0.5,
+        "latency_ms": 10.17899999715155,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -3.40625,
+          "yaw": -0.140625,
+          "roll": 0.58984375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5396,7 +5663,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5406,7 +5673,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5437,17 +5704,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
-        "confidence": 0.5,
+        "latency_ms": 9.989199999836273,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -6.46875,
+          "yaw": 1.0390625,
+          "roll": 0.796875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5457,7 +5727,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5498,17 +5768,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0013000026228837669,
-        "confidence": 0.5,
+        "latency_ms": 9.594200000719866,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -8.875,
+          "yaw": 6.8125,
+          "roll": 4.5625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5518,7 +5791,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5528,7 +5801,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5559,17 +5832,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
-        "confidence": 0.5,
+        "latency_ms": 10.092300002725096,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -0.302734375,
+          "yaw": 12.0,
+          "roll": 2.421875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5579,7 +5855,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5620,17 +5896,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
-        "confidence": 0.5,
+        "latency_ms": 9.977300000173273,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 0.466796875,
+          "yaw": 13.0625,
+          "roll": 1.296875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5650,7 +5929,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5681,17 +5960,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0012000018614344299,
-        "confidence": 0.5,
+        "latency_ms": 10.450400000991067,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.21875,
+          "yaw": 13.8125,
+          "roll": 2.3125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5701,7 +5983,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.000400003045797348,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5742,17 +6024,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
-        "confidence": 0.5,
+        "latency_ms": 10.413700001663528,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.640625,
+          "yaw": 13.8125,
+          "roll": 2.34375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5762,7 +6047,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5772,7 +6057,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5803,17 +6088,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0011000010999850929,
-        "confidence": 0.5,
+        "latency_ms": 9.92499999847496,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -8.75,
+          "yaw": 13.0625,
+          "roll": 2.671875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5823,7 +6111,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.000400003045797348,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5833,7 +6121,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5864,17 +6152,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0007999988156370819,
-        "confidence": 0.5,
+        "latency_ms": 9.875299998384435,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -7.59375,
+          "yaw": 14.8125,
+          "roll": 3.0625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5884,7 +6175,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0006999980541877449,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5894,7 +6185,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5925,17 +6216,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010000003385357559,
-        "confidence": 0.5,
+        "latency_ms": 10.639700001775054,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.03125,
+          "yaw": 14.5625,
+          "roll": 2.90625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -5945,7 +6239,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -5955,7 +6249,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -5986,17 +6280,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010999974620062858,
-        "confidence": 0.5,
+        "latency_ms": 10.196199997153599,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.6875,
+          "yaw": 14.3125,
+          "roll": 2.53125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0006000009307172149,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6006,7 +6303,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6047,17 +6344,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0012000018614344299,
-        "confidence": 0.5,
+        "latency_ms": 10.288600002240855,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 5.4375,
+          "yaw": 16.375,
+          "roll": -0.30078125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000800002453615889,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6067,7 +6367,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0004999965312890708,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6108,17 +6408,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0005999972927384079,
-        "confidence": 0.5,
+        "latency_ms": 9.986299999582116,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 3.734375,
+          "yaw": 16.375,
+          "roll": -0.74609375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6128,7 +6431,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6138,7 +6441,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -6169,17 +6472,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0011000010999850929,
-        "confidence": 0.5,
+        "latency_ms": 10.310200003004866,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 1.375,
+          "yaw": 15.125,
+          "roll": -0.78125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6189,7 +6495,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005999972927384079,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6230,17 +6536,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000900003215065226,
-        "confidence": 0.5,
+        "latency_ms": 9.371700001793215,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -0.318359375,
+          "yaw": 15.625,
+          "roll": 0.55078125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.0006999980541877449,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6251,6 +6560,70 @@
       "phone": {
         "success": true,
         "latency_ms": 0.0002999986463692039,
+        "confidence": 0.5,
+        "payload": {
+          "boxes": [],
+          "phone_present": false
+        },
+        "error": null
+      },
+      "hand_off_wheel": {
+        "success": true,
+        "latency_ms": 0.000100000761449337,
+        "confidence": 0.5,
+        "payload": {
+          "hand_off": false
+        },
+        "error": null
+      }
+    },
+    "fusion": {
+      "evidence_scores": {
+        "head_down_score": 0.0,
+        "gaze_down_score": 0.0,
+        "phone_score": 0.0,
+        "hand_off_score": 0.0
+      },
+      "risk_score": 0.0
+    },
+    "decision": {
+      "frame_label": "normal",
+      "decision_confidence": 0.0
+    }
+  },
+  {
+    "meta": {
+      "video_id": "std_正常驾驶2.mp4",
+      "frame_index": 206,
+      "timestamp_ms": 8240
+    },
+    "detector_outputs": {
+      "head_pose": {
+        "success": true,
+        "latency_ms": 9.157499996945262,
+        "confidence": 0.3,
+        "payload": {
+          "pitch": 4.03125,
+          "yaw": 15.125,
+          "roll": 0.0242919921875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
+        },
+        "error": null
+      },
+      "gaze": {
+        "success": true,
+        "latency_ms": 0.000700001692166552,
+        "confidence": 0.5,
+        "payload": {
+          "gaze_pitch": 0.0,
+          "is_gaze_down": false
+        },
+        "error": null
+      },
+      "phone": {
+        "success": true,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6285,84 +6658,26 @@
   {
     "meta": {
       "video_id": "std_正常驾驶2.mp4",
-      "frame_index": 206,
-      "timestamp_ms": 8240
-    },
-    "detector_outputs": {
-      "head_pose": {
-        "success": true,
-        "latency_ms": 0.0005999972927384079,
-        "confidence": 0.5,
-        "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
-        },
-        "error": null
-      },
-      "gaze": {
-        "success": true,
-        "latency_ms": 0.0006000009307172149,
-        "confidence": 0.5,
-        "payload": {
-          "gaze_pitch": 0.0,
-          "is_gaze_down": false
-        },
-        "error": null
-      },
-      "phone": {
-        "success": true,
-        "latency_ms": 0.000200001522898674,
-        "confidence": 0.5,
-        "payload": {
-          "boxes": [],
-          "phone_present": false
-        },
-        "error": null
-      },
-      "hand_off_wheel": {
-        "success": true,
-        "latency_ms": 0.000100000761449337,
-        "confidence": 0.5,
-        "payload": {
-          "hand_off": false
-        },
-        "error": null
-      }
-    },
-    "fusion": {
-      "evidence_scores": {
-        "head_down_score": 0.0,
-        "gaze_down_score": 0.0,
-        "phone_score": 0.0,
-        "hand_off_score": 0.0
-      },
-      "risk_score": 0.0
-    },
-    "decision": {
-      "frame_label": "normal",
-      "decision_confidence": 0.0
-    }
-  },
-  {
-    "meta": {
-      "video_id": "std_正常驾驶2.mp4",
       "frame_index": 208,
       "timestamp_ms": 8320
     },
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0013000026228837669,
-        "confidence": 0.5,
+        "latency_ms": 10.121400002390146,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -1.71875,
+          "yaw": 12.5625,
+          "roll": -1.7109375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0006000009307172149,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6372,7 +6687,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.000400003045797348,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6382,7 +6697,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.000200001522898674,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -6413,17 +6728,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0012000018614344299,
-        "confidence": 0.5,
+        "latency_ms": 10.196300001553027,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.640625,
+          "yaw": 12.5,
+          "roll": -1.28125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6433,7 +6751,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6443,7 +6761,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -6474,17 +6792,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0022999993234407157,
-        "confidence": 0.5,
+        "latency_ms": 10.271600000123726,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": 0.6640625,
+          "yaw": 12.625,
+          "roll": -1.78125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0011000010999850929,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6494,7 +6815,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0009999967005569488,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6535,17 +6856,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0014999968698248267,
-        "confidence": 0.5,
+        "latency_ms": 9.381100000609877,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -6.0625,
+          "yaw": 14.0,
+          "roll": 0.45703125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6555,7 +6879,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0007999988156370819,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6596,17 +6920,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0017999991541728377,
-        "confidence": 0.5,
+        "latency_ms": 10.166399999434361,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.5,
+          "yaw": 14.4375,
+          "roll": 0.859375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6616,7 +6943,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0006999980541877449,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6657,17 +6984,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
-        "confidence": 0.5,
+        "latency_ms": 9.327499999926658,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.3125,
+          "yaw": 17.5,
+          "roll": 2.515625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6687,7 +7017,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.00019999788491986692,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -6718,17 +7048,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0013999997463542968,
-        "confidence": 0.5,
+        "latency_ms": 10.40869999997085,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -3.140625,
+          "yaw": 17.0,
+          "roll": 0.734375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0012999989849049598,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6738,7 +7071,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0011000010999850929,
+        "latency_ms": 0.00039999940781854093,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6779,17 +7112,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
-        "confidence": 0.5,
+        "latency_ms": 9.376699999847915,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.78125,
+          "yaw": 17.625,
+          "roll": 1.9375,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000400003045797348,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6799,7 +7135,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.000400003045797348,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6809,7 +7145,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -6840,17 +7176,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 10.327199997846037,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -5.0,
+          "yaw": 17.625,
+          "roll": 1.2421875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6860,7 +7199,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.000400003045797348,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6901,17 +7240,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0012999989849049598,
-        "confidence": 0.5,
+        "latency_ms": 10.10889999815845,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -6.71875,
+          "yaw": 16.75,
+          "roll": 1.3046875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.0008999995770864189,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6921,7 +7263,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0006999980541877449,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -6931,7 +7273,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 9.999712347052991e-05,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -6962,17 +7304,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0010999974620062858,
-        "confidence": 0.5,
+        "latency_ms": 9.693399999378016,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -6.375,
+          "yaw": 15.9375,
+          "roll": 0.87890625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -6982,7 +7327,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0011999982234556228,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -7023,17 +7368,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0020000006770715117,
-        "confidence": 0.5,
+        "latency_ms": 10.095200002979254,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -2.796875,
+          "yaw": 15.5,
+          "roll": 0.34765625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -7043,7 +7391,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000700001692166552,
+        "latency_ms": 0.0005000001692678779,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -7084,17 +7432,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
-        "confidence": 0.5,
+        "latency_ms": 9.793000001081964,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -5.6875,
+          "yaw": 15.375,
+          "roll": 1.1328125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0007999988156370819,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -7104,7 +7455,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0005999972927384079,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -7114,7 +7465,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -7145,17 +7496,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
-        "confidence": 0.5,
+        "latency_ms": 9.292099999584025,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -7.5625,
+          "yaw": 15.8125,
+          "roll": 1.6875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -7165,7 +7519,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -7175,7 +7529,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -7206,17 +7560,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000800002453615889,
-        "confidence": 0.5,
+        "latency_ms": 9.85670000227401,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -8.0,
+          "yaw": 16.25,
+          "roll": 3.5625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -7226,7 +7583,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -7236,7 +7593,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -7267,17 +7624,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.00039999940781854093,
-        "confidence": 0.5,
+        "latency_ms": 9.360600000945851,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -5.84375,
+          "yaw": 14.25,
+          "roll": 3.640625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.0007999988156370819,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -7287,7 +7647,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0007999988156370819,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -7297,7 +7657,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -7328,17 +7688,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0008999995770864189,
-        "confidence": 0.5,
+        "latency_ms": 9.334799997304799,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -6.78125,
+          "yaw": 12.75,
+          "roll": 5.1875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0005000001692678779,
+        "latency_ms": 0.000800002453615889,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -7348,7 +7711,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.000300002284348011,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -7358,7 +7721,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -7389,17 +7752,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0017999991541728377,
-        "confidence": 0.5,
+        "latency_ms": 9.795899997698143,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -4.5625,
+          "yaw": 14.9375,
+          "roll": 4.40625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.000200001522898674,
+        "latency_ms": 0.0006000009307172149,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -7419,7 +7785,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 9.999712347052991e-05,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -7450,17 +7816,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0013000026228837669,
-        "confidence": 0.5,
+        "latency_ms": 9.828300000663148,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -8.3125,
+          "yaw": 14.375,
+          "roll": 4.875,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -7470,7 +7839,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.0006999980541877449,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -7511,17 +7880,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
-        "confidence": 0.5,
+        "latency_ms": 9.088199996767798,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -3.796875,
+          "yaw": 14.6875,
+          "roll": 3.265625,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.0002999986463692039,
+        "latency_ms": 0.000700001692166552,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -7541,7 +7913,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false
@@ -7572,17 +7944,20 @@
     "detector_outputs": {
       "head_pose": {
         "success": true,
-        "latency_ms": 0.000300002284348011,
-        "confidence": 0.5,
+        "latency_ms": 9.711399998195702,
+        "confidence": 0.3,
         "payload": {
-          "pitch": 0.0,
-          "is_head_down": false
+          "pitch": -8.25,
+          "yaw": 14.6875,
+          "roll": 3.453125,
+          "is_head_down": false,
+          "model": "head-pose-estimation-adas-0001"
         },
         "error": null
       },
       "gaze": {
         "success": true,
-        "latency_ms": 0.00019999788491986692,
+        "latency_ms": 0.0006000009307172149,
         "confidence": 0.5,
         "payload": {
           "gaze_pitch": 0.0,
@@ -7592,7 +7967,7 @@
       },
       "phone": {
         "success": true,
-        "latency_ms": 0.000100000761449337,
+        "latency_ms": 0.0002999986463692039,
         "confidence": 0.5,
         "payload": {
           "boxes": [],
@@ -7602,7 +7977,7 @@
       },
       "hand_off_wheel": {
         "success": true,
-        "latency_ms": 0.0,
+        "latency_ms": 0.000100000761449337,
         "confidence": 0.5,
         "payload": {
           "hand_off": false

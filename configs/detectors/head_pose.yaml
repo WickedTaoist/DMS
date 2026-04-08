@@ -1,3 +1,23 @@
+# ------------------------------------------------------------
+# 头姿 detector 配置 / Head-pose detector configuration
+# ------------------------------------------------------------
+
+# detector 名称，应与 registry 中的 key 保持一致。
+# Detector name; should match the registry key.
 detector: head_pose
+
+# 头部下倾阈值（pitch），超过该值视为低头。
+# Head-down threshold based on pitch angle.
 pitch_down_threshold: 15.0
+
+# OpenVINO IR 模型路径（xml，bin 需同名同目录）。
+# OpenVINO IR model path (xml, with same-name bin in same folder).
 model_path: models/openvino/head_pose.xml
+
+# OpenVINO 设备，常见值：CPU / GPU / AUTO。
+# OpenVINO target device, common values: CPU / GPU / AUTO.
+device: CPU
+
+# 人脸框扩展比例，用于给头姿模型留出边界上下文。
+# Face ROI padding ratio to keep extra context around the face.
+face_padding_ratio: 0.2
