@@ -76,9 +76,24 @@ detectors:
       # Face ROI padding ratio.
       face_padding_ratio: 0.2
     gaze:
-      # 视线下移阈值。
-      # Downward gaze threshold.
+      # 视线下移阈值（度）。
+      # Downward gaze threshold in degrees.
       gaze_down_threshold: 10.0
+      # 是否将正方向 pitch 视为下视；设为 false 时表示负方向是下视。
+      # Whether positive pitch means downward gaze. False means negative pitch is downward.
+      downward_positive: false
+      # L2CS-Net 预训练权重路径。
+      # Path to L2CS-Net pretrained weights.
+      model_path: models/l2cs/Gaze360/L2CSNet_gaze360.pkl
+      # L2CS 骨干网络架构。
+      # L2CS backbone architecture.
+      arch: ResNet50
+      # PyTorch 推理设备。
+      # PyTorch inference device.
+      device: cpu
+      # RetinaFace 人脸检测置信度阈值。
+      # RetinaFace face-detection confidence threshold.
+      confidence_threshold: 0.5
     phone:
       # 手机检测置信度阈值。
       # Confidence threshold for phone detection.
