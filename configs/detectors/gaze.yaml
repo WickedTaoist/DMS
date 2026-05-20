@@ -6,10 +6,26 @@
 # Detector name; should match the registry key.
 detector: gaze
 
-# 视线下移阈值，超过该值可视为 gaze downward。
-# Downward-gaze threshold.
+# 视线下移阈值（度），超过该值可视为 gaze downward。
+# Downward-gaze threshold in degrees.
 gaze_down_threshold: 10.0
 
-# 真实 gaze 模型路径。
-# Path to the real gaze estimation model.
-model_path: models/openvino/gaze.xml
+# 是否将正方向 pitch 视为下视；设为 false 时表示负方向是下视。
+# Whether positive pitch means downward gaze. False means negative pitch is downward.
+downward_positive: false
+
+# L2CS-Net 预训练权重路径。
+# Path to L2CS-Net pretrained weights.
+model_path: models/l2cs/Gaze360/L2CSNet_gaze360.pkl
+
+# L2CS 骨干网络架构。
+# L2CS backbone architecture.
+arch: ResNet50
+
+# PyTorch 推理设备：cpu / cuda / cuda:0 / 0。
+# PyTorch inference device.
+device: cpu
+
+# RetinaFace 人脸检测置信度阈值。
+# RetinaFace face-detection confidence threshold.
+confidence_threshold: 0.5
